@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html >
+<html >
+<head>
+	<link rel="icon" href="logo.png" type="image/png" size="16x16" />
+	<link rel="icon" href="SSlogo.png" type="image/png" size="16x16" />
+
+	<!-- Group Project
+
+
+	HTML for Allan Muir track and field  Page Group Project
+	Author: Allan Muir
+	Date:  November 15,2020.
+
+	Filename: T&F.html-->
+
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+	<title>SportSpot/Track&Field</title>
+	<link rel="stylesheet" href="T&F.css" type="text/css" media="all" />
+
+
+</head>
+<body>
+	<!-- Header -->
+	<div id="header">
+		<div class="shell">
+			<!-- Logo -->
+			<h1 id="logo" class="notext"><a href="#"></a></h1>
+			<!-- End Logo -->
+		</div>
+	</div>
+	<!-- End Header -->
+	
+	<!-- Navigation -->
+	<div id="navigation">
+		<div class="shell">
+			<div class="cl">&nbsp;</div>
+			<header>
+           
+		</div>
+	</div>
+	<!-- End Navigation -->
+	
+	<!-- Heading -->
+	<div id="heading">
+		<div class="shell">
+			<div id="heading-cnt">
+				<nav>
+                <ul class="navigation">
+                    <li class="navigation" style="float:center;">  <h1><a href="index.html">Home</a></h1>      </li>
+                    <li class="navigation" style="float:center;">
+                        <a href="#" class="submenuTitle"><h1>Sports </h1></a>
+                        <ul class="submenu">
+                            <li><a href="volleyball.html">
+                            	<h1>Volleyball </h1></a></li>
+                            <li><a href="T&F.html"><h1>Track and Field</h1></a></li>
+                            <li><a href="blog_.html"><h1>Esports</h1></a></li>
+                            <li><a href="b_basketball.html"><h1>Basketball</h1></a></li>
+                        </ul>
+                    </li>
+                    <li class="navigation"> <h1>  <a href="News.html">News</a> </h1>   </li>
+                    <li class="navigation"> <h1><a href="ss_blog.html">Blog</a>  </h1></li>
+                    <li class="navigation"><a href="About.html">  <h1>About Us</h1> </a></li>
+                    <li class="navigation"> <a href="Contacts.html"> <h1> Contact Us </h1></a></li>
+                </ul>
+            </nav>
+        </header>
+				
+			
+				<!-- End Sub nav -->
+				
+				<!-- Widget -->
+				<div id="heading-box">
+					<div id="heading-box-cnt">
+						<div class="cl">&nbsp;</div>
+						
+						<!-- Main Slide Item -->
+						<div class="featured-main">
+							<div class="slideshow">
+	    	<div class="slide">
+	    		<div class="count">1/5</div>
+	    		<img src="SSlogo1.png"  style="width:100%" >
+	    		<div class="imgtxt">SportsSport for Sports Lovers</div>
+	    	</div>
+
+	    	<div class="slide">
+	    		<div class="count">2/4</div>
+	    		<img src="shotput.jpeg" style="width:100%" >
+	    		<div class="imgtxt">Shot Put</div>
+	    	</div>
+
+	    	<div class="slide">
+	    		<div class="count">3/5</div>
+	    		<img src="img4.jpg" style="width:100%" >
+	    		<div class="imgtxt">Track&Field</div>
+	    	</div>
+
+	    	<div class="slide">
+	    		<div class="count">4/5</div>
+	    		<img src="WOMEN RUNING.jpg" style="width:100%" >
+	    		<div class="imgtxt">Esports</div>
+	    	</div>
+	    	<div class="slide">
+	    		<div class="count">5/5</div>
+	    		<img src="POLE VAULT.jpg" style="width:100%" >
+	    		<div class="imgtxt">Pole Vault</div>
+	    	</div>
+	    </div>
+    	<br>
+
+	    <div style="text-align: center;">
+	    	<span class="dot" onclick="currentSlide(1)"></span>
+	    	<span class="dot" onclick="currentSlide(2)"></span> 
+		  	<span class="dot" onclick="currentSlide(3)"></span> 
+		  	<span class="dot" onclick="currentSlide(4)"></span> 
+		  	<span class="dot" onclick="currentSlide(5)"></span> 
+
+
+	    </div>
+
+	    <script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() 
+			{
+			  var i;
+			  var slides = document.getElementsByClassName("slide");
+			  var dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 4000); // Change image every 5 seconds
+			}
+		</script>
+							<div class="featured-main-details">
+								<div class="featured-main-details-cnt">									
+									<br>
+								</div>
+							</div>
+						</div>
+						<!-- End Main Slide Item -->
+						
+						<div class="featured-side">
+							
+							<!-- Slide Item 1 -->
+							<div class="featured-side-item">
+								<div class="cl">&nbsp;</div>
+								<a href="#" class="left"><img src="img6.jpg" alt="" /></a>
+								<h4><a href="#">Shotput Event</a></h4>
+								<p>Shot put competitions have been held at the modern Summer Olympic Games since their inception in 1896, and it is also included as an event in the World Athletics Championships</p>
+								<div class="cl">&nbsp;</div>
+							</div>
+							<!-- End Slide Item 1 -->
+							
+							<!-- Slide Item 2 -->
+							<div class="featured-side-item">
+								<div class="cl">&nbsp;</div>
+								<a href="#" class="left"><img src="sideimg1.jpg" alt="" /></a>
+								<h4><a href="#">100m Hurdles</a></h4>
+								<p>The race started back in the 1830s in England where wooden barriers were placed along a 100 yard.</p>
+								<div class="cl">&nbsp;</div>
+							</div>
+							<!-- End Slide Item 2 -->
+							
+							<!-- Slide Item 3 -->
+							<div class="featured-side-item">
+								<div class="cl">&nbsp;</div>
+								<a href="#" class="left"><img src="img2.jpg" alt="" /></a>
+								<h4><a href="#"> Men 100m</a></h4>
+								<p>100m Men Usain Bolt of Jamaica and Andre De Grasse of Canada compete in the Men's 100 meter final on Day 9 of the Rio 2016 Olympic Games at the Olympic Stadium on August 14, 2016 in Rio de Janeiro, Brazil.</p>
+								<div class="cl">&nbsp;</div>
+							</div>
+							<!-- End Slide Item 3 -->
+							
+							<!-- Slide Item 4 -->
+							<div class="featured-side-item">
+								<div class="cl">&nbsp;</div>
+								<a href="#" class="left"><img src="img9.jpg" alt="" /></a>
+								<h4><a href="#">Pole Vault</a></h4>
+								<p>elena Isinbayeva: (Russia Pole vaulter): Yelena Gadzhievna Isinbayeva was born on 3 June 1982. She is a Russian pole vaulter.</p>
+								<div class="cl">&nbsp;</div>
+							</div>
+							<!-- End Slide Item 4 -->
+						</div>
+						<div class="cl">&nbsp;</div>						
+					</div>
+				</div>
+				<!-- End Widget -->
+				
+			</div>			
+		</div>
+	</div>
+	<!-- End Heading -->
+	
+	<!-- Main -->
+	<div id="main">
+		<div class="shell">		
+			<div class="cl">&nbsp;</div>	
+			<div id="sidebar">
+				<h2>Upcoming Track Events</h2>
+				<ul>
+				    <li>
+				    	<small class="date">11.06.20.</small>
+				    	<p> Oslo NOR(Impossible Games - WDL exhibition event).</p>
+				    </li>
+				    <li>
+				    	<small class="date">12.09.20.</small>
+				    	<p>Zurich	SUI	 (Inspiration Games - WDL exhibition event)</p>
+				    </li>
+				    <li>
+				    	<small class="date">12.15.20</small>
+				    	<p>Monaco MON .</p>
+				    </li>
+				    <li>
+				    	<small class="date">01.05.21</small>
+				    	<p>Doha	QAT (WDL exhibition street event).</p>
+				    </li>
+				    <li>
+				    	<small class="date">01.06.21</small>
+				    	<p>Lausanne	SUI(WDL exhibition street event).</p>
+				    </li>
+				    <li>
+				    	<small class="date">2.12.21</small>
+				    	<p>Rome/Naples	ITA (WDL exhibition event). </p>
+				    </li>
+				</ul>
+				<a href="#" class="archives">News Archives</a>
+			</div>
+			<div id="content">
+				<div class="cl">&nbsp;</div>
+				<div class="grey-box">
+					<h3><a href="#">Long Jump Finals</a></h3>
+					<iframe width="200" height="101" src="https://www.youtube.com/embed/IZCzG_bS_9Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>
+						<span>U.S. long jumper Robert Beamon clinched the world Record and Olympic  gold medal in long jump with a leap of 8.98cm </span>
+						<a href="https://youtu.be/IZCzG_bS_9Q" class="button">Watch Here</a>
+					 </p>
+				</div>
+				<div class="grey-box">
+					<h3><a href="#"> Javline Throw Olympic Finals</a></h3>
+					<iframe width="200" height="101" src="https://www.youtube.com/embed/oUOHsDlZW3M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>
+						<span>When Keshorn Walcott won the Olympic javelin title at London 2012, shocking</span>
+
+						<a href="https://www.youtube.com/watch?v=oUOHsDlZW3M" class="button">Watch Here</a>
+					 </p>
+				</div>
+				<div class="grey-box last">
+					<h3><a href="#">Diamond League 400mh finals</a></h3>
+					<iframe width="200" height="101" src="https://www.youtube.com/embed/5-s7qVNHo6c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<span>Karsten Warholm and Rai Benjamin both break 47 seconds but it's Warholm who posts an incredible 46.92 to win the Diamond League 400m hurdles title.
+						<a href="https://www.youtube.com/watch?v=1r5U0PR4PdQ" target="_blank" class="button">Watch Here</a>
+					 </p>
+				</div>
+
+				<div>
+	             <table>
+   
+   	<caption><h2> IAAF World championships 2019 Mens  Track Results</h2></caption>
+  <thead>
+  <tr>
+    
+    <th>Event</th>
+    <th>Gold</th>
+    <th>Silver </th>
+    <th>Bronze</th>
+    <th>World Record</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td> 100 metres </td>
+      <td>Christian Coleman
+          United States (USA)
+             9.76s WL</td>
+      <td>Justin Gatlin
+         United States (USA)
+           	9.89s</td>
+      <td>Andre De Grasse
+           Canada (CAN) 9.90s PB</td>
+      <td>Usian Bolt 
+          Jamaica (JAM) 
+            9.58s WR 
+          2009 Berlin</td>
+    </tr>
+     <tr>
+      <td>200 metres </td>
+      <td>Noah Lyles
+           United States (USA) 19.83s </td>
+      <td>Andre De Grasse
+         Canada (CAN) 19.95s </td>
+      <th> Álex Quiñónez
+           Ecuador (ECU) 19.98s</th>
+      <td> Usain Bolt 
+         Jamaica (JAM) 19.19s WR 2009 Berlin</td>
+
+    </tr>
+     <tr>
+      <td> 400 metres</td>
+      <td> Steven Gardiner
+          Bahamas (BAH) 43.48s NR</td>
+      <td>Anthony Zambrano
+          Colombia (COL) 44.15s AR</td>
+      <td>Fred Kerley
+         United States (USA) 44.17s</td>
+      <td>Wayde van Niekerk South Africa (RSA) 43.03s </td>
+
+    </tr>
+     <tr>
+      <td>400 metres hurdles</td>
+      <td>Karsten Warholm
+          Norway (NOR) 47.42s</td>
+      <td>Rai Benjamin
+         United States (USA) 47.66s</td>
+      <td>Abderrahman Samba
+            Qatar (QAT) 48.03s </td>
+      <td>	Kevin Young United States (USA) 46.78s WR</td>
+
+    </tr>
+    </tbody>
+  <tfoot>
+    <td colspan=5>Property of &#64 Allan Muir Ltd</td>
+  </tfoot>
+  </table>
+
+  <div> <h2> Track Action News</h2>
+  	 <p>
+  	 <cite><h3>	Above are the long awaited results of the World Championships Gold Silver and Bronze medalist,for all who misssed the championships where the USA almost had a clean sweep of the mens 100 meters dash a bahamianin national record was set and the great viking stole the show in his display over the 400 meters hurdles.
+  	</h3></cite> </p>
+  </div>
+	</div>
+	<br>
+   
+   <section>
+   	<table>
+   	<caption><h2> IAAF World championships 2019  field Results</h2></caption>
+  <thead>
+  <tr>
+    
+    <th>Event</th>
+    <th>Gold</th>
+    <th>Silver </th>
+    <th>Bronze</th>
+    <th>World Record</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td> High jump </td>
+      <td>Mutaz Essa Barshim
+         Qatar (QAT)	2.37 m WL</td>
+      <td>Mikhail Akimenko
+ Authorised Neutral Athletes (ANA)	2.35m PB </td>
+      <td> Ilya Ivanyuk
+ Authorised Neutral Athletes (ANA)	2.35 m PB</td>
+      <td>Javier Sotomayor  Cuba (CUB) 2.45 m WR </td>
+    </tr>
+     <tr>
+      <td>Pole vault </td>
+      <td>Sam Kendricks
+          United States(USA)5.97 m	</td>
+      <td>Armand Duplantis 5.97 m</td>
+      <th>Piotr Lisek
+        Poland (POL) 5.87 m</th>
+      <td>Armand Duplantis
+        Sweden (SWE) 6.18 m WR</td>
+
+    </tr>
+     <tr>
+      <td> Long jump</td>
+      <td> Tajay Gayle
+ Jamaica (JAM)	8.69 m WL, NR</td>
+      <td>Jeff Henderson
+ United States (USA)	8.39 m SB</td>
+      <td>Juan Miguel Echevarría
+           Cuba (CUB)	8.34 m</td>
+      <td> Mike Powell  United States(USA) 9.95m WR </td>
+
+    </tr>
+     <tr>
+      <td>Javelin throw</td>
+      <td>Anderson Peters
+ Grenada (GRN)	86.89 m</td>
+      <td>	Magnus Kirt
+ Estonia (EST) 86.21 m</td>
+      <td>Johannes Vetter
+       Germany (GER)	85.37 m </td>
+      <td>	Jan Zelezny Czech Republic (CZE)98.48WR</td>
+
+    </tr>
+    </tbody>
+  <tfoot>
+    <td colspan=5>Property of &#64 Allan Muir Ltd</td>
+  </tfoot>
+  </table>
+	</div>
+   </section>
+				
+				
+	<!-- End Main -->
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div class="shell">
+			<div class="cl">&nbsp;</div>
+			<a href="#" class="left">TERMS OF USE</a>
+			<a href="#" class="left">PRIVACY POLICY</a>
+			<p class="right">&copy; SportSpot.com</p>
+						<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<!-- End Footer -->
+</body>
+</html>

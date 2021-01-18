@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html >
+<html >
+<head>
+
+    <!-- Group Project
+
+
+    HTML for Allan Muir Contact  Page Group Project
+    Author: Allan Muir
+    Date:  November 15,2020.
+
+    Filename: Contact.html-->
+    <link rel="icon" href="logo.png" type="image/png" size="16x16" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>SportSpot/Contact Us</title>
+    <link rel="stylesheet" href="Contacts.css" type="text/css" media="all" />
+</head>
+       
+<body>
+    <header>
+        <div id="header">
+
+            <!-- Logo -->
+            <h1 id="logo" class="notext"><a href="#"></a></h1>
+            <!-- End Logo -->
+        </div>
+        <!-- Navigation -->
+        <div id="navigation">
+            <div class="cl">&nbsp;</div>
+
+        </div>
+        <!-- End Navigation -->
+
+        <div id="heading">
+            <div class="shell">
+                <div id="heading-cnt">
+                    <nav>
+                        <ul class="navigation">
+                            <li class="navigation" style="float:center;">  <h1><a href="index.html">Home</a></h1>  </li>
+                            <li class="navigation" style="float:center;">
+                                <a href="#" class="submenuTitle"><h1>Sports </h1></a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="volleyball.html">
+                                            <h1>Volleyball </h1>
+                                        </a>
+                                    </li>
+                                    <li><a href="T&F.html"><h1>Track and Field</h1></a></li>
+                                    <li><a href="blog_.html"><h1>Esports</h1></a></li>
+                                    <li><a href="b_basketball.html"><h1>Basketball</h1></a></li>
+                                </ul>
+                            </li>
+                            <li class="navigation"> <h1> <a href="News.html">News</a>  </h1>   </li>
+                            <li class="navigation"> <h1> <a href="ss_blog.html">Blog</a> </h1>    </li>
+                            <li class="navigation"><a href="About.html">  <h1>About Us</h1> </a></li>
+                            <li class="navigation"> <a href="Contacts.html"> <h1> Contact Us</h1></a> </li>
+                            <div class="search-container">
+                                <form action="css/images/action_page.php">
+                                    <input type="text" placeholder="Search.." name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button>
+
+                                </form>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <aside>
+        <h3>Sportspot Google Maps Location</h3>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2641.6405321017646!2d-77.06392871921719!3d38.944128375142924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9cf28c04f55%3A0x2c1adedff447268e!2sUniversity%20of%20the%20District%20of%20Columbia!5e0!3m2!1sen!2sus!4v1606326658420!5m2!1sen!2sus" width="800" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <!--The div element for the map -->
+        <div id="map"></div>
+    </aside>
+    <form id="survey" action="#" method="post">
+        <fieldset id="cusInfo">
+            <legend>fill out this form</legend>
+
+            <div class="formRow">
+                <label for="name">Name*</label>
+                <input name="custName" id="name" type="text" placeholder=" first and last name" required />
+            </div>
+
+            <div class="formRow">
+                <label for="Street">Street address</label>
+                <input name="custStreet" id="street" type="text" />
+            </div>
+
+            <div class="formRow">
+                <label for="city">City</label>
+                <input name="cusCity" id="city" type="text" value="City" />
+            </div>
+
+            <div class="formRow">
+                <label for="state">State</label>
+                <input name="custState" id="state" type="text" value="state" />
+            </div>
+
+            <div class="formRow">
+                <label for="zip">Postal code</label>
+                <input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)" pattern="^\d(\{5}(-\d{4})?$" />
+            </div>
+
+            <div class="formRow">
+                <label for="phone">Phone Number</label>
+                <input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+            </div>
+            <div class="formRow">
+                <label for="mail">E-mail*</label>
+                <input name="custEmsil" id="mail" type="email" required />
+            </div>
+
+            <div class="formRow">
+                <label for="info"> where did you hear about us?<br />(select all that apply)</label>
+                <select name="infosrc" id="info" size="5" multiple>
+                    <option value="internet">internet</option>
+                    <option value="mag">Magazine</option>
+                    <option value="news">Newspaper</option>
+                    <option value="world">Word of Mouth</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <label for="commmBox">Tell us more about your experience</label>
+            <textarea name="custExp" id="commmBox"></textarea>
+        </fieldset>
+        <div id="buttons">
+            <input type="submit" value="Submit My Survey" />
+            <input type="reset" value="Cancel" />
+        </div>
+
+        </fieldset>
+    </form>
+    </section>
+
+
+
+    <div id="footer">
+        <div class="shell">
+            <div class="cl">&nbsp;</div>
+            <a href="#" class="left">TERMS OF USE</a>
+            <a href="#" class="left">PRIVACY POLICY</a>
+            <p class="right">&copy; SportSpot.com</p>
+            <div class="cl">&nbsp;</div>
+        </div>
+    </div>
+    <!-- End Footer -->
+</body>
+</html>

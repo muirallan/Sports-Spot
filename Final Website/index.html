@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+<head>
+	<!-- Author: Marckenly Estima, Allan Muir, and Mosunlade Ishola
+	     Date: 11/18/2020 -->
+	<meta name="keywords" content="sport, sports, basketball, esport, track, volleyball" />
+	<title>Sports Spot</title>
+	<link href="index_layout1.css" rel="stylesheet" />
+	<script src="script.js" defer></script>
+	<link rel="icon" href="logo.png" type="image/jpg" sizes="32x32" />
+</head>
+<body>
+<header>
+	<img src="banner.jpg" alt="Banner" />
+	<div class="topnav">
+		<nav>
+			<ul class="horizontal">
+				<li class="mainNav" style="float:left"> <a href="index.html"> Home </a></li>
+				<li class="mainNav" style="float:left">
+					<a href="#" class="submenuTitle">Sports</a>
+					<ul class="submenu">
+						<li><a href="volleyball.html">Volleyball</a></li>
+						<li><a href="T&F.html">Track and Field</a></li>
+						<li><a href="blog_.html">Esports</a></li>
+						<li><a href="b_basketball.html">Basketball</a></li>
+					</ul>
+				</li>
+				<li class="mainNav"><a href="News.html"> News</a></li>
+				<li class="mainNav"><a href="ss_blog.html">  Blog  </a></li>
+				<li class="mainNav"><a href="About.html"> About Us </a></li>
+				<li class="mainNav"><a href="Contacts.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+	<h1>Sports Spot</h1>
+	<h2 id="welcome">Welcome to Sports Spot, the world greatest sport site on the internet.<br />
+	See sport news, stories, highlights, stats, blog and much more. </h2>
+	<a class="image_link" href="b_basketball.html"><img src="basketball.png"></a>
+	<a class="image_link"  href="blog_.html"><img src="esport.png"></a>
+	<a class="image_link"  href="T&F.html"><img src="track.png"></a>
+	<a class="image_link"  href="volleyball.html"><img src="volleyball.png"></a>
+	<script>
+		var pop = 0;
+		function popup() {
+			if (pop == 0) {
+				document.getElementById("submenu").style.display = "block";
+				pop = 1;
+			}
+			else {
+				document.getElementById("submenu").style.display = "none";
+				pop = 0;
+			}
+		}
+	</script>
+<footer>
+<p>1234 S Broadway St. * Washington, DC 20008 * <a href="tel:+12021234567">(202) 123-4567</a> * </p><a href="#"><img src="twitter.png" /></a> 
+<a href="#"><img src="instagram.png" /></a> <a href="#"><img src="facebook.png" /></a>
+</footer>
+</body>
+</html>
