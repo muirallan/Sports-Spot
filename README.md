@@ -4,7 +4,7 @@
 
 #Project Plan:
 * Project Plan
-For our Fall 2020 Intro to web development group project we have decided to create a website called Sports Stop. 
+For our Fall 2020 Intro to web development group project we have decided to create a website called Sports Spot. 
 
 This website hosts a variety of sports contents. Individuals will be able to browse sports news, sports facts, upcoming seasons, 
 sessions league stats, Rising stars blog, fantasy draft, and calendar. 
