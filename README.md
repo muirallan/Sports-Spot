@@ -23,7 +23,7 @@ sports in particular. Our mission is to provide a space where sports lover can c
 To participate in fantasy leagues and meet other sports fans. The main colors of our home page will be red and gray. It will include our personalized logo in red at 
 the top left-hand corner and bottom left-hand corner. The header will contain our website banner and our slogan.*
 
-**I worked on the Volleyball and About pages personally**
+**I worked on the Track & field and ESports pages personally**
 
 ## Video Walkthrough
 
